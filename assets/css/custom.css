@@ -101,8 +101,8 @@ h6 {
     padding-bottom: 145px !important;
   }
   .px-lg-120 {
-    padding-left: 120px;
-    padding-right: 105px;
+    padding-left: 120px !important;
+    padding-right: 105px !important;
   }
   .fs-lg-40 {
     font-size: 40px;
@@ -116,6 +116,23 @@ h6 {
   .py-lg-141 {
     padding-top: 141px !important;
     padding-bottom: 141px !important;
+  }
+  .py-lg-115 {
+    padding-top: 115px !important;
+    padding-bottom: 115px !important;
+  }
+  .mx-lg-120 {
+    margin-left: 120px !important;
+    margin-right: 105px !important;
+  }
+  .ps-lg-100 {
+    padding-left: 100px;
+  }
+  .fs-lg-42 {
+    font-size: 42px;
+  }
+  .fs-lg-32 {
+    font-size: 32px;
   }
 }
 
@@ -171,4 +188,9 @@ h6 {
 .w-48 {
   width: 48px;
   height: 48px;
-} 
+}
+
+.py-30 {
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
