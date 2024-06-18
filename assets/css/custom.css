@@ -96,4 +96,56 @@ h6 {
   .ps-lg-134 {
     padding-left: 134px !important;
   }
+  .py-lg-145 {
+    padding-top: 145px !important;
+    padding-bottom: 145px !important;
+  }
+  .px-lg-120 {
+    padding-left: 120px;
+    padding-right: 105px;
+  }
+  .fs-lg-40 {
+    font-size: 40px;
+  }
+  .w-lg-360 {
+    width: 360px;
+  }
+}
+
+@media (max-width: 992px) {
+  .gap-30 {
+    gap: 30px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .fs-xl-64 {
+    font-size: 64px;
+  }
+  .w-xl-420 {
+    width: 420px;
+  }
+}
+
+@media (min-width: 1400px) {
+  .w-xxl-486 {
+    width: 486px;
+  }
+}
+
+.btn-no-radius {
+  border-radius: 0;
+}
+
+.fw-semi-bold {
+  font-weight: 500;
+}
+
+.fs-20 {
+  font-size: 20px;
+}
+
+.py-80 {
+  padding-top: 80px;
+  padding-bottom: 80px;
 }
