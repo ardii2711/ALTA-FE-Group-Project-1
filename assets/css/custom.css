@@ -134,6 +134,13 @@ h6 {
   .fs-lg-32 {
     font-size: 32px;
   }
+  .px-lg-100 {
+    padding-left: 100px;
+    padding-right: 100px;
+  }
+  .pb-lg-60 {
+    padding-bottom: 60px;
+  }
 }
 
 @media (max-width: 992px) {
@@ -212,4 +219,20 @@ h6 {
   width: 100%;
   height: 2px;
   background-color: #b4b4b4;
+}
+
+.flex-4 {
+  flex: 4;
+}
+
+.flex-5 {
+  flex: 5;
+}
+
+.flex-1 {
+  flex: 1;
+}
+
+.flex-3{
+  flex: 3;
 }
