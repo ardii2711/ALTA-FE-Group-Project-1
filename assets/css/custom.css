@@ -1,0 +1,93 @@
+body {
+  font-family: 'Inter', sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'Poppins', sans-serif;
+}
+
+/* Theme */
+.primary-custom {
+  background-color: #19345e;
+}
+
+.secondary-custom {
+  background-color: #46ba71;
+}
+
+.alt-custom {
+  background-color: #f46953;
+}
+
+.dark-custom {
+  background-color: #052825;
+}
+
+.hover-primary-custom:hover {
+  background-color: #1a3bc3;
+  color: white;
+}
+
+.hover-secondary-custom:hover {
+  background-color: #32a65d;
+  color: white;
+}
+
+.hover-alt-custom:hover {
+  background-color: #e0553f;
+  color: white;
+}
+
+/* Base Color */
+.text-primary-custom {
+  color: #19345e;
+}
+
+.text-secondary-custom {
+  color: #1e1e1e;
+}
+
+.text-alt-custom {
+  color: #969696;
+}
+
+.text-dark-custom {
+  color: #ffffff;
+}
+
+.label-primary-custom {
+  color: #bebebe;
+}
+
+.border-custom {
+  border-color: #b4b4b4;
+}
+
+.error-warning-custom {
+  color: #e55454;
+}
+
+.success-custom {
+  color: #1ed21a;
+}
+
+.bg-primary-custom {
+  background-color: #ffffff;
+}
+
+.bg-secondary-custom {
+  background-color: #e7ebfc;
+}
+
+.bg-dark-custom {
+  background-color: #19345e;
+}
+
+.bg-input-custom {
+  background-color: #dcdcdc;
+}
