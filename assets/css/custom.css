@@ -91,3 +91,9 @@ h6 {
 .bg-input-custom {
   background-color: #dcdcdc;
 }
+
+@media (min-width: 992px) { /* min-large */
+  .ps-lg-134 {
+    padding-left: 134px !important;
+  }
+}
