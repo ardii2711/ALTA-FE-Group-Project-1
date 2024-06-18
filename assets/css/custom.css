@@ -190,7 +190,12 @@ h6 {
   height: 48px;
 }
 
-.py-30 {
+.pt-30 {
   padding-top: 30px;
-  padding-bottom: 30px;
+}
+
+.circle {
+  width: 24px;
+  height: 24px;
+  border-radius: 50%;
 }
