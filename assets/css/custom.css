@@ -151,6 +151,13 @@ h6 {
   .pe-lg-405 {
     padding-right: 405px;
   }
+  .px-lg-165 {
+    padding-left: 165px;
+    padding-right: 165px;
+  }
+  .fs-lg-52 {
+    font-size: 52px;
+  }
 }
 
 @media (max-width: 992px) {
@@ -239,4 +246,15 @@ h6 {
 .py-60 {
   padding-top: 60px;
   padding-bottom: 60px;
+}
+
+.flex-1 {
+  flex: 1;
+}
+
+.separator {
+  width: 2px;
+  background-color: white;
+  margin: 0 10px;
+  opacity: 40%;
 }
