@@ -68,6 +68,10 @@ h6 {
   border-color: #b4b4b4;
 }
 
+.border-primary-custom {
+  border: 2px solid #19345e;
+}
+
 .error-warning-custom {
   color: #e55454;
 }
@@ -158,6 +162,14 @@ h6 {
   .fs-lg-52 {
     font-size: 52px;
   }
+  .px-lg-121 {
+    padding-left: 121px;
+    padding-right: 121px;
+  }
+  .py-lg-100 {
+    padding-top: 100px !important;
+    padding-bottom: 100px !important;
+  }
 }
 
 @media (max-width: 992px) {
@@ -172,6 +184,13 @@ h6 {
   }
   .w-xl-420 {
     width: 420px;
+  }
+  .w-xl-400 {
+    width: 400px !important;
+  }
+  
+  .h-xl-500 {
+    height: 500px !important;
   }
 }
 
@@ -257,4 +276,40 @@ h6 {
   background-color: white;
   margin: 0 10px;
   opacity: 40%;
+}
+
+.w-320 {
+  width: 320px;
+}
+
+.h-400 {
+  height: 400px;
+}
+
+.bg-image-1 {
+  background-image: url("/assets/images/stock_photo.jpg");
+  border-radius: 3px;
+  background-size: cover;
+  position: relative;
+}
+
+.bg-image-1::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(25, 52, 94, 0.4);
+    border-radius: 3px;
+}
+
+.w-196 {
+  width: 196px;
+}
+
+.text-potition {
+  position: absolute;
+  left: 30px;
+  bottom: 10px;
 }
