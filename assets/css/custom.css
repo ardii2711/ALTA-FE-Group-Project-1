@@ -313,3 +313,15 @@ h6 {
   left: 30px;
   bottom: 10px;
 }
+
+.w-65 {
+  width: 65px;
+}
+
+.h-65 {
+  height: 65px;
+}
+
+.flex-3 {
+  flex: 3;
+}
