@@ -45,11 +45,11 @@ h6 {
 
 /* Base Color */
 .text-primary-custom {
-  color: #19345e;
+  color: #19345e !important;
 }
 
 .text-secondary-custom {
-  color: #1e1e1e;
+  color: #1e1e1e !important;
 }
 
 .text-alt-custom {
@@ -65,19 +65,14 @@ h6 {
 }
 
 .border-custom {
-  border-color: #b4b4b4;
-} */
-
-.border-custom {
   border: 1px solid #b4b4b4;
 }
 
 .border-primary-custom {
   border: 1px solid #19345e;
-}
 
 .border-primary-custom {
-  border: 2px solid #19345e;
+  border: 1px solid #19345e;
 }
 
 .error-warning-custom {
