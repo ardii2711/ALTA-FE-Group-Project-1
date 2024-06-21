@@ -1,34 +1,257 @@
-section .frame 210 h1 {
-  font-style: italic;
-  margin: 20px 0;
+body {
+  font-family: "Inter", sans-serif;
+}
+section h1 {
+  left: 100px;
+  width: 50%;
+  height: 150px;
+  position: absolute;
 }
 blockquote {
   font-style: italic;
+  left: 100px;
   margin: 20px 0;
+  width: 50%;
+  height: 100px;
+  position: relative;
+  top: 170px;
 }
 
-section .author {
+section .d-flex {
+  left: 70px;
+  width: 40%;
+  height: 200px;
+  position: relative;
+  top: 70px;
   display: flex;
   align-items: center;
   justify-content: center;
 }
-
 section .author img {
-  border-radius: 50%;
-  width: 50px;
-  height: 50px;
+  border-radius: 200%;
+  width: 70px;
+  height: 70px;
   margin-right: 10px;
 }
-
-section button {
+section .d-flex button {
+  position: relative;
+  right: 200px;
+  top: 100px;
   background-color: #1e3a8a;
   color: white;
   border: none;
   padding: 10px 20px;
   margin-top: 20px;
   cursor: pointer;
+  width: 350px;
 }
 
 section button:hover {
   background-color: #3b5998;
+}
+
+.solutions {
+  text-align: center;
+  position: relative;
+  left: 180px;
+  margin-top: 500px;
+  width: 70%;
+  padding: 20px;
+  justify-content: center;
+  align-items: center;
+}
+
+.solutions h2 {
+  margin-bottom: 20px;
+}
+
+.solution-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 20px;
+}
+
+.solution {
+  background-color: white;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.solution h3 {
+  font-size: 1.2em;
+  margin-bottom: 10px;
+}
+
+.solution p {
+  position: relative;
+  left: 3px;
+  font-size: 0.9em;
+  width: 70%;
+  color: #1e3a8a;
+}
+.solution a {
+  display: inline-block;
+  margin-top: 10px;
+  color: #1e3a8a;
+  text-decoration: none;
+}
+
+footer {
+  text-align: center;
+  padding: 20px;
+  background-color: #e0e7ff;
+}
+
+footer button {
+  background-color: #1e3a8a;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+footer button:hover {
+  background-color: #3b5998;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+}
+
+header {
+  background: #fff;
+  padding: 10px 20px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+nav .logo {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+}
+
+nav ul li {
+  margin-left: 20px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #333;
+  font-size: 1em;
+}
+
+main {
+  padding: 20px;
+}
+
+.benefits {
+  justify-content: center;
+  text-align: left;
+  padding: 50px;
+}
+
+.benefit-cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  margin-top: 20px;
+}
+
+.benefit-card {
+  background: #f0f4ff;
+  padding: 20px;
+  border-radius: 20px;
+  width: 570px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.testimonial {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 30px;
+  gap: 10px;
+}
+
+.testimonial-content {
+  background: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  max-width: 600px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.testimonial-content img {
+  width: 40%;
+  height: auto;
+  border-radius: 8px;
+}
+
+.arrow {
+  width: 100px;
+  background: gray;
+  border: black;
+  font-size: 2em;
+  cursor: pointer;
+}
+
+.team {
+  text-align: center;
+  padding: 20px;
+}
+
+.team-members {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  margin-top: 20px;
+}
+
+.team-member {
+  background: #f0f4ff;
+  padding: 20px;
+  border-radius: 8px;
+  width: 250px;
+  text-align: center;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.member-photo {
+  background: #ccc;
+  width: 100%;
+  height: 150px;
+  border-radius: 8px;
+}
+
+@media (max-width: 768px) {
+  .benefit-cards,
+  .team-members {
+    flex-direction: column;
+  }
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
