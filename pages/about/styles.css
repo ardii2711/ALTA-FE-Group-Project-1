@@ -257,3 +257,137 @@ main {
 }
 
 /* Style for contact page */
+
+.flex-1 {
+  flex: 1;
+}
+
+.separator {
+  width: 2px;
+  background-color: white;
+  margin: 0 10px;
+  opacity: 40%;
+}
+
+.w-320 {
+  width: 320px;
+}
+
+.h-400 {
+  height: 400px;
+}
+
+.bg-image-1 {
+  background-image: url("/assets/images/stock_photo.jpg");
+  border-radius: 3px;
+  background-size: cover;
+  position: relative;
+}
+
+.bg-image-1::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(25, 52, 94, 0.4);
+  border-radius: 3px;
+}
+
+.w-196 {
+  width: 196px;
+}
+
+.text-potition {
+  position: absolute;
+  left: 30px;
+  bottom: 10px;
+}
+
+.w-65 {
+  width: 65px;
+}
+
+.h-65 {
+  height: 65px;
+}
+
+.flex-3 {
+  flex: 3;
+}
+
+/* contact page start */
+/* content 1 start */
+.mb-30 {
+  margin-bottom: 30px;
+}
+
+.max-w-487 {
+  max-width: 487px;
+}
+
+.required::after {
+  content: "*";
+  color: black;
+}
+
+.custom-input {
+  height: 50px !important;
+  border: 1px solid #b4b4b4 !important;
+}
+
+.no-radius {
+  border-radius: 0 !important;
+}
+
+/* content 1 end */
+
+/* content 2 start */
+.min-w-300 {
+  min-width: 300px !important;
+}
+
+.custom-bottom {
+  height: 50px;
+}
+
+.custom-img-card {
+  width: 540px;
+  height: 280px;
+}
+
+.no-top-radius {
+  border-top-left-radius: 0 !important;
+  border-top-right-radius: 0 !important;
+}
+/* content 2 end */
+/* contact page end */
+
+/* about page start */
+
+/* content 4 start */
+.custom-icon {
+  font-size: 26px;
+  font-weight: bold;
+}
+.min-wh-65 {
+  min-width: 65px !important;
+  min-height: 65px !important;
+}
+.max-w-350 {
+  max-width: 350px;
+}
+/* content 4 end */
+
+/* content 5 start */
+.circle-icon {
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+/* content 5 end */
+/* about page end */
